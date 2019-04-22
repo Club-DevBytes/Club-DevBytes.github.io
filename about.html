@@ -2,6 +2,28 @@
 <html>
 
 <head>
+    <style>
+        .responsive{
+            background-image:url("assets/img/dev-min.jpg");
+                           height:800px;
+                           background-position:center;
+                           background-size:cover;
+                           background-repeat:no-repeat;
+                           width:100%;
+                           display: block;
+        }
+        @media screen and (min-width: 0px) and (max-width: 600px) {
+            .responsive{
+            background-image:url("assets/img/dev-min.jpg");
+                           height:430px;
+                           background-position:center;
+                           background-size:contain;
+                           background-repeat:no-repeat;
+                           width:100%;
+                           display: block;
+        }   
+        }
+        </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>About Club-DevBytes</title>
@@ -20,18 +42,11 @@
 </head>
 
 <body>
-    <div id="about" style="background-image:url(&quot;assets/img/dev-min.jpg&quot;);
-                           height:800px;background-position:center;
-                           background-size:cover;
-                           background-repeat:no-repeat;">
-        <div class="d-flex justify-content-center align-items-center"
-         style="height:inherit;
-                min-height:initial;width:100%;
-                position:absolute;left:0;
-                background-color:rgba(30,41,99,0.53);">
-            <div class="d-flex align-items-center order-12" style="height:200px;">
+    <div class="responsive">
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="d-flex align-items-center order-12">
                 <div class="container">
-                    <h1 class="text-center" style="color:rgb(242,245,248);font-size:56px;font-weight:bold;font-family:Roboto, sans-serif;">About Us <div class="caption v-middle text-center">
+                    <h1 class="text-center" style="color:rgb(242,245,248);font-size:56px;font-weight:bold;font-family:Roboto, sans-serif; margin-top: 3em;">About Us <div class="caption v-middle text-center">
 					<h1 class="cd-headline clip">
 			            <span class="blc">I'm | </span>
 			            <span class="cd-words-wrapper">
@@ -45,7 +60,7 @@
 			            </span>
 	          		</h1>
 				</div></h1>
-                    <h3 class="text-center" style="color:rgb(242,245,248);padding-top:0.25em;padding-bottom:0.25em;font-weight:normal;background: rgba(245, 181, 5, 0.733)">Know about the crew behind the Club.</h3>
+                    <h3 class="text-center" style="color:rgb(242,245,248);padding-top:0.25em;padding-bottom:0.25em;font-weight:normal;background: rgba(247, 243, 23, 0.363); font-size: 1.3em">Know about the crew behind the Club.</h3>
                 </div>
             </div>
         </div>

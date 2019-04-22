@@ -5641,9 +5641,24 @@ button.bg-dark:hover {
 .d-table-cell {
 	display: table-cell !important;
 }
+
 .d-flex {
 	display: -ms-flexbox !important;
 	display: flex !important;
+	height:800px;
+	min-height:initial;width:100%;
+	position:absolute;left:0;
+	background-color:rgba(30, 41, 99, 0.212);
+}
+@media screen and (min-width: 0px) and (max-width: 600px) {
+	.d-flex {
+		display: -ms-flexbox !important;
+		display: flex !important;
+		height:360px;
+		min-height:initial;width:100%;
+		position:absolute;left:0;
+		background-color:rgba(30, 41, 99, 0.212);
+	}
 }
 .d-inline-flex {
 	display: -ms-inline-flexbox !important;
